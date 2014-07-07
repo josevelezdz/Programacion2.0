@@ -10,7 +10,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author josedavidvelez
+ * @author Jose David Velez Y Josue Narea
  */
 public class Ejercicio13 {
     public static String Ejercicio13(int n){

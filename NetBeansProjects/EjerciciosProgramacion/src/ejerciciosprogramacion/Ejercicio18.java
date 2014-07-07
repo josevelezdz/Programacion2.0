@@ -8,7 +8,7 @@ package ejerciciosprogramacion;
 
 /**
  *
- * @author josedavidvelez
+ * @author Jose David Velez Y Josue Narea
  */
 public class Ejercicio18 {
     public static String[] Ejercicio18(String[] valores) {

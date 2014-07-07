@@ -8,7 +8,7 @@ package ejerciciosprogramacion;
 
 /**
  *
- * @author josedavidvelez
+ * @author Jose David Velez Y Josue Narea
  */
 public class Ejercicio01 {
     public static int Ejercicio1(int x, int y) {
