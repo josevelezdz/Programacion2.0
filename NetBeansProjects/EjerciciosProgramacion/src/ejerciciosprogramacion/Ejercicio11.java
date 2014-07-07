@@ -26,7 +26,7 @@ public class Ejercicio11 {
         for (int i = 0; i < x; i++) {
             for (int j = 0; j < y; j++) {
                 
-                System.out.println("Ingrese valor en Pos.: "+i+j);
+                System.out.println("Ingrese valor en la Posicion: "+i+j);
                 valor=entrada.nextInt();
                 matriz[i][j]=valor;
                 
