@@ -22,14 +22,14 @@ public class Ejercicio11 {
             for (int j = 0; j < y; j++) {
                 
                 int entrada1=Integer.parseInt(JOptionPane.showInputDialog("Ingrese un valor"+i+","+j));
-        int entrada=entrada1;
+                int entrada=entrada1;
                 valor=entrada;
                 matriz[i][j]=valor;
                 
             }
             
         }
-        int dimen=x*y,a=0;
+        int dimen = x * y , a = 0;
         
         int vectorcontndr[]=new int[dimen];
         for (int i = 0; i <x; i++) {
