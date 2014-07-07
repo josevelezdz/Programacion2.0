@@ -13,7 +13,7 @@ package ejerciciosprogramacion;
 public class Ejercicio01 {
     public static int Ejercicio1(int x, int y) {
         int[] vector = new int[498];
-        int i, par = 8, impar = 7, suma = 0;
+        int i, par = 10, impar = 9, suma = 0;
         if (((x <= 0) || (y <= 0)) || ((x > 255))) {
             return (-1);
         }
