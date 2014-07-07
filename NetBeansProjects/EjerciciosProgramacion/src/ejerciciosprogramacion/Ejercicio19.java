@@ -32,7 +32,7 @@ public class Ejercicio19 {
   exp++;
         }
          int y = (int) binario; 
-        JOptionPane.showMessageDialog(null, "El valor binario es " +y);
+        JOptionPane.showMessageDialog(null, "El valor del numero binario es " +y);
          JOptionPane.showMessageDialog(null, "El numero de 1 de este binario contiene " +c);
          return c;
        }
