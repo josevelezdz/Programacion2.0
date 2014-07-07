@@ -15,6 +15,7 @@ import static ejerciciosprogramacion.Ejercicio07.MayúsculasMinúsculas;
 import static ejerciciosprogramacion.Ejercicio08.ContarA;
 import static ejerciciosprogramacion.Ejercicio09.potencia;
 import static ejerciciosprogramacion.Ejercicio10.Ejercicio10;
+import static ejerciciosprogramacion.Ejercicio11.Ejercicio11;
 import static ejerciciosprogramacion.Ejercicio13.Ejercicio13;
 import static ejerciciosprogramacion.Ejercicio14.serie_14;
 import static ejerciciosprogramacion.Ejercicio16.Serie_16;
@@ -175,6 +176,11 @@ Ejercicio10(x,y);
 "1 se repite 2 veces, 5 se repite 3 veces, 3 se repite 2 veces, 4 se repite 2 veces 2 se repite 2 veces\n" +
 "El número que más se repite es 5 La función debe devolver:.. 5 (5 Porque se repite 3 veces en la matriz).\n" +
 "La función recibirá una matriz de enteros y devolver un entero.");
+               int numer=Integer.parseInt(JOptionPane.showInputDialog("Ingrese el valor en X"));
+            x = numer;
+        int numer1=Integer.parseInt(JOptionPane.showInputDialog("Ingrese el valor en Y"));
+            y = numer1;
+            Ejercicio11(x, y);
                 break;
 
             case 12:
@@ -256,6 +262,7 @@ Ejercicio10(x,y);
                 String numerofrase;
                         numerofrase=JOptionPane.showInputDialog("Ingrese el numero en letra");
                 frase=numerofrase;
+                frase=frase.toUpperCase();
                 JOptionPane.showMessageDialog(null,  letraanumeros(frase));
                 break;
             case 18:

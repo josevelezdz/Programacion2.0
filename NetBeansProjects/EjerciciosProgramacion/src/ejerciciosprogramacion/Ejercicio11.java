@@ -1,3 +1,4 @@
+package ejerciciosprogramacion;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
@@ -5,20 +6,14 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author YO :D XD
+ * @author Josue Narea y Jose David Velez
  */
 public class Ejercicio11 {
-    
- 
-    public static void main(String[] args) {
+    public static int Ejercicio11(int x, int y) {
         // TODO code application logic here
-         Scanner entrada=new Scanner(System.in);
+         
         
         
-        int numero=Integer.parseInt(JOptionPane.showInputDialog("Ingrese el valor en X"));
-          int  x = numero;
-        int numero1=Integer.parseInt(JOptionPane.showInputDialog("Ingrese el valor en Y"));
-          int  y = numero1;
         
         int valor;
         int matriz[][]=new int [x][y];
@@ -26,8 +21,9 @@ public class Ejercicio11 {
         for (int i = 0; i < x; i++) {
             for (int j = 0; j < y; j++) {
                 
-                System.out.println("Ingrese valor en la Posicion: "+i+j);
-                valor=entrada.nextInt();
+                int entrada1=Integer.parseInt(JOptionPane.showInputDialog("Ingrese un valor"+i+","+j));
+        int entrada=entrada1;
+                valor=entrada;
                 matriz[i][j]=valor;
                 
             }
@@ -68,8 +64,9 @@ public class Ejercicio11 {
                 numRepite = vectorcontndr[i];
             }
         }
-        System.out.println("El # que mas se repite es el: " + numRepite + 
+        JOptionPane.showMessageDialog(null,"El # que mas se repite es el: " + numRepite + 
                 " Porque se repite " + cantRepite+" Veces en la matriz");  
+        return numRepite;
         
 }
 }
