@@ -5,7 +5,6 @@
  */
 
 package ejerciciosprogramacion;
-
 import static ejerciciosprogramacion.Ejercicio01.Ejercicio1;
 import static ejerciciosprogramacion.Ejercicio02.Ejercicio2;
 import static ejerciciosprogramacion.Ejercicio03.Ejercicio3;
@@ -380,109 +379,4 @@ Ejercicio10(x,y);
         }while((op>25)||(op==0)||(op<-1));
         return op;
     }
-//    public static int PrimerEjerccio(int valorx, int valory) {
-//        int[] vector = new int[498];
-//        int i, par = 8, impar = 7, suma = 0;
-//        if (((valorx <= 0) || (valory <= 0)) || ((valorx > 255) )) {
-//            return (-1);
-//        }
-//        for (i = 0; i < vector.length; i++) {
-//            if (i % 2 == 0) {
-//
-//                vector[i] = par;
-//                par = vector[i] - 2;
-//            } else {
-//
-//                vector[i] = impar++;
-//            }
-//        }
-//        for (i = 0; i < vector.length; i++) {
-//            suma = vector[valorx] + vector[valory];
-//
-//        }
-//        return suma;
-//    }
-//
-//    public static int Ejerccio2(int valorx, int valory) {
-//        //int[] vector = new int[498] ;
-//        int i, factorial = 1;
-//        if (((valorx <= 0) || (valory <= 0)) || ((valorx > 255) )) {
-//            return (-1);
-//        }
-//        for (i = 1; i <= valory; i++) {
-//            factorial = factorial * i;
-//            
-//        }
-//        return valorx * factorial;
-//    }
-//
-//    
-//    
-//    public static float Ejerccio3(int valorx, int valory) {
-//        float res;
-//        if (((valorx <= 0) || (valory <= 0)) || ((valorx > 255) || (valory > 255))) {
-//            return (-1);
-//        }
-//        res=(float)valorx/valory;
-//        return res;
-//    }
-//    public static void Ejercicio4(String cadena1,String cadena2){
-//        String a;
-//        cadena2=cadena2.toLowerCase();
-//        a=cadena2.toUpperCase();
-//        int longitud1=cadena1.length();
-//        int longitud2=cadena2.length();               
-//        char[] frase1 = cadena1.toCharArray();
-//        char[] frase2 = cadena2.toCharArray(); 
-//        char[] frase3 = a.toCharArray();         
-//         for (int i = 0; i < longitud2; i++)
-//          {
-//              for (int j = 0; j < longitud1; j++) 
-//              {
-////                  if (frase1[j]== frase2[i] || frase1[j]== frase3[i]) 
-////                  {
-////                      frase1[j]=' ';
-////                  }
-////              }
-////          }             
-////          for (int i = 0; i < longitud1; i++) 
-////          {
-////              if (frase1[i]!=' ')
-////              {
-////                  System.out.print(frase1[i]);
-//////                   JOptionPane.showMessageDialog(null,frase1[i]++);
-////              }
-////          }    
-////      
-////    }
-//    
-//public static void Ejercicio13(){
-//    int n=0; int menor=0; int posicion =0;
-//    String cadena = "";
-//        n=Integer.parseInt(JOptionPane.showInputDialog("Ingrese el valor del entero n"));
-//        int[] arreglo1=new int[n];
-//        int[] arregloauxiliar=new int[n];
-//        for (int i = 0; i < n; i++) {
-//            arreglo1 [i] = Integer.parseInt(JOptionPane.showInputDialog("Ingrese valores al vector"));
-//        }
-//         
-//         for (int i = 0; i < n; i++) {
-//             if (arreglo1[i] < 0) {
-//                arregloauxiliar[posicion]= arreglo1[i];
-//                posicion++;
-//             }
-//         }
-//         for (int i = 0; i < n; i++) {
-//            if (arreglo1[i] >= 0) {
-//                arregloauxiliar[posicion]= arreglo1[i];
-//                posicion++;
-//             }
-//        }
-//         for (int i :arregloauxiliar) {
-//             cadena=cadena +" "+ i;
-//        
-//    }
-//         
-//JOptionPane.showMessageDialog(null,cadena);
-//}
 }
